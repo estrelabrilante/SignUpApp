@@ -21,11 +21,10 @@ public class SecondActivity extends AppCompatActivity {
         Intent i = getIntent();
          String userName = i.getStringExtra("name");
          String userEmail = i.getStringExtra("email");
-        //int userPhone = i.getIntExtra("phone", 0);
+
         int userPhone = i.getIntExtra("phone", 0);
         name.setText("Hello " + userName);
         email.setText("Your email address is " + " " + userEmail);
-        // phone.setText("Phone Number " +  "" + String.valueOf(userPhone));
         phone.setText("Phone Number " + "  " + String.valueOf(userPhone));
         Toast.makeText(getApplicationContext(), userName,Toast.LENGTH_LONG).show();
         Toast.makeText(getApplicationContext(), userEmail,Toast.LENGTH_LONG).show();

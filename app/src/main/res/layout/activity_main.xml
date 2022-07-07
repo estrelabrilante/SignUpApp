@@ -32,18 +32,6 @@
         android:minHeight="48dp" />
 
     <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="100dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="Enter your phone"
-        android:inputType="textPersonName"
-        android:minHeight="48dp" />
-
-    <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,6 +40,18 @@
         android:ems="10"
         android:gravity="center"
         android:hint="Enter your email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter your phone"
         android:inputType="textPersonName"
         android:minHeight="48dp" />
 

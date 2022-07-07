@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick( View view ) {
                 String userName = name.getText().toString();
                 String userEmail = email.getText().toString();
-               // int phoneNumber = Integer.valueOf(phone.getText().toString());
-                String phoneNumber = phone.getText().toString();
+              Integer phoneNumber = Integer.valueOf(phone.getText().toString());
+               
                 Intent i;
                 i = new Intent( MainActivity.this,SecondActivity.class);
                 i.putExtra("name", userName);
